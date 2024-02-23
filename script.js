@@ -19,7 +19,7 @@ let list = () => {
                     const country = data[i];
 
                     newHTML += `
-            <div class="col-4" style="cursor:pointer" data-bs-toggle="modal" data-bs-target="#countryExInfo">
+            <div class="col-4" style="cursor:pointer" data-bs-toggle="modal" data-bs-target="#country">
                 <div class="card">
                 <img src="${country.flags.png}" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -33,7 +33,6 @@ let list = () => {
                 </div>
             </div>            
             `;
-
 
             newModalHTML += `
             <div class="modal-dialog">
@@ -72,7 +71,7 @@ let list = () => {
                     let country = data[i];
 
                     newHTML += `
-                <div class="col-4" style="cursor:pointer" data-bs-toggle="modal" data-bs-target="#countryExInfo">
+                <div class="col-4" style="cursor:pointer" data-bs-toggle="modal" data-bs-target="#country">
                     <div class="card">
                     <img src="${country.flags.png}" class="card-img-top" alt="...">
                         <div class="card-body">

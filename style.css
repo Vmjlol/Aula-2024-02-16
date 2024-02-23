@@ -1,0 +1,26 @@
+.container {
+    margin-top: 100px;
+}
+.navbar img {
+    aspect-ratio: 1/1;
+    height: 30px;
+    vertical-align: text-top;
+}
+.card {
+    margin-bottom: 15px;
+}
+.card img {
+    aspect-ratio: 16/9;
+}
+.buttonSub {
+    background: transparent;
+    border: none;
+}
+
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+        align-content: center;
+    }
+  }
+
